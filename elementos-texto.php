@@ -4,7 +4,7 @@
 <meta charset="utf-8"/>
 <meta name="description" content="Descrição da página"/>
 <meta name="keywords" content="Palavras chave separadas por vírgula"/>
-<title>Untitled Document</title>
+<title>Elementos de texto</title>
 </head>
 <body>
 
