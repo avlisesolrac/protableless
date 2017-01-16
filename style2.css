@@ -1,0 +1,44 @@
+/* CORPO DO SITE - INLINE 
+seletor{comando:estilo; comando:estilo;}
+*/
+
+/* CORPO DO SITE - UM ABAIXO DO OUTRO 
+seletor {
+	comando:estilo;
+	comando:estilo;
+}
+*/
+
+/*SELETOR GLOBAL '*' */
+* {margin:0; padding: 0;}
+h1{font:bold 18px Tahoma, Geneva, sans-serif; color: #333; margin:0;}
+h2{font:bold 14px Tahoma, Geneva, sans-serif; color: #999; margin:0;}
+p {font:12px Verdana, Geneva, sans-serif; color:#333; margin:10px 0;}
+
+/*Formatar LINK*/
+a:link{color:#900;}
+a:visited{colr:#F00;}
+a:hover{font-weight:bold; text-decoration:none;}
+a:active{color:#0f0;}
+
+#conteudo {
+	background:#069;
+	border:5px solid #000;
+	width:650px;
+	padding: 10px;
+}
+#conteudo p {color:#fff;}
+
+
+#conteudo .formato {
+	padding:5px;
+	background:#FDD;
+	margin:10px;
+	width:50%;
+}
+
+#conteudo .formato p {color:#000; font-size:30px;}/*relação a tela do dispositivo*/
+#conteudo .formato p {color:#000; font-size:2em;}
+#conteudo .formato p {color:#000; font-size:10ex;}/*altura da fonte*/
+#conteudo .formato p {color:#000; font-size:5cm;}
+#conteudo .formato p {color:#000; font-size:20px;}
