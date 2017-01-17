@@ -1,0 +1,27 @@
+/* CORPO DO SITE - INLINE 
+seletor{comando:estilo; comando:estilo;}
+*/
+
+/* CORPO DO SITE - UM ABAIXO DO OUTRO 
+seletor {
+	comando:estilo;
+	comando:estilo;
+}
+*/
+
+#caixa{
+	background:#069;
+	padding:10px;
+	width:600px;
+	margin:10px;
+}
+
+#caixa .conteudo {
+	padding: 5px;
+	background:#fff;
+	color: #333;
+	border:5px solid black;
+	border-top-width: 10px;
+	border-right-color:#c60;
+	border-bottom-style:dotted; /*solid, double, dotted, groove, ridge, inset e outset*/
+}
