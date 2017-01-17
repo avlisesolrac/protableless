@@ -1,0 +1,51 @@
+* {margin:0; paddin:0;}
+
+/*
+caption-side: top, bottom;
+table-layout: auto, fixed;
+border-collapse:collapse = linha unica, separete = linha dupla;
+border-spacing:15px; distância da entre a borda se o collapse for separate;
+empty-cells: show, hide;/*mostrar ou não uma célula vazia
+*/
+
+table{
+	margin:10px;
+	border:1px solid #000;
+	/*Necessário essa borda para tirar o excesso de borda*/
+	border-right:0;
+	border-bottom:0;
+	font:14px Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+table td{
+	border: 1px solid #000;
+	/*Necessário essa borda para tirar o excesso de borda*/
+	border-left:0;
+	border-top:0;
+	padding: 5px;
+}
+
+table .titulo td {
+	background:#005789;
+	font: 16px bold Georgia, "Times New Roman", Times, serif;
+	color: #d8d8d8;
+	padding:8px;
+}
+
+table tr:hover{
+	background: #09f;
+}
+
+table a{
+	text-decoration:none;
+	color: #fff;
+	padding: 2px 6px;
+	border: 1px outset #f30;
+	background:#f60;
+	font: bold small-caps 12px Arial, Helvetica, sans-serif;
+}
+table a:hover{
+	border:1px inset #f00;
+	background:#f30;
+}
