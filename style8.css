@@ -1,0 +1,27 @@
+* {margin:0; paddin:0;}
+
+#elemento {
+	width:450px;
+	height:150px;
+	overflow:auto; /*
+	OVERFLOW:
+	visible - texto fora da div
+	hidden - texto fora da div será escondido
+	scroll - será acrescentado barra de rolagem lateral e horizontal
+	auto - vai deixar a barra de rolagem somente onde for necessário, ou só na lateral ou só na horizontal
+	*/
+	overflow-x:hidden; /*
+	Esconde a barra de rolagem do eixo x, ou seja, a barra de rolagem horizontal*/
+	overflow-y:hidden; /*
+	Esconde a barra de rolagem do eixo y, ou seja, a barra de rolagem vertical*/
+	/*Determinar largura e altura minima e máxima
+	min-width: 300px;
+	max-width: 500px;
+	min-height:300px;
+	max-height:500px;*/
+	
+	line-height:20px;/*Valor padrão para espaçamento de linhas*/
+	color:#ccc;
+	background:#333;
+	margin:10px;
+}
