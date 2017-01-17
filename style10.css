@@ -1,0 +1,33 @@
+* {margin:0; paddin:0;}
+
+body {
+	
+}
+
+#caixa {
+	width:500px;
+	min-height: 300px;
+	padding:10px;
+	margin:10px;
+	background-color:#069;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	/*italic - deixa o texto itálico
+	oblique - deixa o texto como itálico*/
+	/*font-variant: small-caps;
+	small-caps - deixa todas as letras do texto em maiúscula com destaque
+	normal - deixa o texto no padrão da fonte
+	*/
+	font-weight: bold;
+	/*normal - deixa o texto normal, ou seja, padrão da fonte
+	bold - deixa o texto em negrito
+	*/
+	font-size: 16px;
+	/*Em pixels altera o tamanho do texto*/
+
+	/* forma de usar todas as propriedades anteriores em uma linha:;
+	font: weight style variant size/line-height family;*/
+
+	font: bold italic small-caps 16px/28px Verdana, Geneva, sans-serif;
+	color:#ccc;
+}
