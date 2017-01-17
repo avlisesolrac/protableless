@@ -1,0 +1,52 @@
+/* CORPO DO SITE - INLINE 
+seletor{comando:estilo; comando:estilo;}
+*/
+
+/* CORPO DO SITE - UM ABAIXO DO OUTRO 
+seletor {
+	comando:estilo;
+	comando:estilo;
+}
+*/
+
+body {margin:0;}/*tira a margem externa de body com o navegador*/
+
+#um{
+	width:660px;
+	padding:10px;
+	border:5px solid #000;
+	position:relative;
+	height:800px;
+}
+
+#dois {
+	width:200px;
+	height:150px;
+	background: #0c0;
+	margin:10px;
+	float:left;
+	z-index:2;
+}
+
+#tres {
+	width:200px;
+	height:150px;
+	background:#636;
+	margin: 10px;
+	float:left;
+	position:fixed;/**/
+}
+
+#quatro {
+	width:200px;
+	height:80px;
+	background:#fc0;
+	float:right;
+	position:absolute;/*static*/
+	bottom:0;
+	right:0;
+}
+
+#clear {
+	clear:both;
+}
