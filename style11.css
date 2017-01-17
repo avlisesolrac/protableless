@@ -1,0 +1,25 @@
+* {margin:0; paddin:0;}
+
+body {
+	
+}
+
+#caixa {
+	width:500px;
+	min-height: 300px;
+	padding:10px;
+	margin:10px;
+	background-color:#069;
+	font-family: bold italic 16px/28px Verdana, Geneva, sans-serif;
+	color:#ccc;
+	text-indent:10%;/*Pode colocar em pixels também*/
+	text-align:center;/*alinhar o texto, right, left e center*/
+	text-decoration:none;
+	/*decoração do texto, none, underline, overline,
+	line-through(Usado por exemplo para promoção,
+	preço antigo em constraste com o novo preço)*/
+	letter-spacing:normal;/*espaço entre as letras em px*/
+	word-spacing:normal;/*espaço entre as palavras em px*/
+	text-transform:capitalize; /*capitalize, uppercase, lowercase*/
+	white-space: pre-line;/*espaços em branco no texto, pre, nowrap, pre-wrap, pre-line*/
+}
