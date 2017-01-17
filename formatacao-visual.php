@@ -12,20 +12,14 @@
 
 <div id="um">
 	<div id="dois">
-	
-	</div>
-
-	<div id="tres">
-	
-	</div>
-
-	<div id="quatro">
-		
-	</div>
-
-	<div id="clear"></div>
-</div>
-
+    	Olá mundo, <strong>Como vai?</strong>Tudo bem.
+    </div><!--Fim do dois-->
+    <div id="tres">
+    </div><!--Fim do tres-->
+    <div id="quatro">
+    </div><!--Fim do quatro-->
+    <div id="clear"></div><!--Fim do clear-->
+</div><!--Fim do um-->
 
 </body>
 </html>

@@ -1,50 +1,64 @@
-/* CORPO DO SITE - INLINE 
-seletor{comando:estilo; comando:estilo;}
-*/
-
-/* CORPO DO SITE - UM ABAIXO DO OUTRO 
-seletor {
-	comando:estilo;
-	comando:estilo;
-}
-*/
-
-body {margin:0;}/*tira a margem externa de body com o navegador*/
+* {margin:0; paddin:0;}
 
 #um{
 	width:660px;
 	padding:10px;
 	border:5px solid #000;
-	position:relative;
-	height:800px;
+	position: relative;
+	height:1500px;
 }
 
-#dois {
+#dois{
 	width:200px;
 	height:150px;
-	background: #0c0;
+	background:#0c0;
 	margin:10px;
 	float:left;
-	z-index:2;
+	position:absolute;
+	top:200px;
+	left:120px;
+	z-index:3;
 }
 
-#tres {
+#dois strong {
+	/*display: inline;*/
+	/*display: block;*/
+	display:none;
+}
+
+#tres{
 	width:200px;
 	height:150px;
 	background:#636;
-	margin: 10px;
+	margin:10px;
 	float:left;
-	position:fixed;/**/
+	position:absolute;
+	top:180px;
+	left:100px;
+	z-index:2;
 }
 
-#quatro {
+#quatro{
 	width:200px;
-	height:80px;
+	height:150px;
 	background:#fc0;
 	float:right;
-	position:absolute;/*static*/
+	margin:10px;
+	/* embaixo à direita
+	position: absolute;
 	bottom:0;
-	right:0;
+	right:0;*/
+	
+	/* cima à esquerda
+	position: absolute;
+	top:0;
+	left:0;*/
+	/*position:static;*/
+	/*position:fixed; acompanha o navegador, se descer a página o elemento vai acompanhar junto*/
+	position:absolute;
+	top:150px;
+	left:80px;
+	z-index:1;
 }
 
 #clear {
