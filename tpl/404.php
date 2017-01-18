@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Error 404 - Page Not Found</title>
-</head>
-<body>
-	<h1>404- Page Not Found</h1>
-</body>
-</html>
+<title>Pro Tableless - Imprima | 404</title>
+<meta name="description" content="Descrição">
+<meta name="keywords" content="Palavras chaves">
+
+<?php setHeader();?>
+
+<div id="conteudo">
+	<h1 class="titulo">Ooopss! Página Não Encontrada</h1>
+	<p>Por favor, navegue pelo nosso menu!</p>
+</div><!--/conteudo-->

@@ -28,7 +28,7 @@ body{background:url(./imagens/body_bg.png) repeat-x #fff;}
 #header .info_print{display:none;}
 
 /*CONTEUDO*/
-#conteudo{margin:0 10px 5px 10px; float:left; width:880px;}
+#conteudo{margin:0 10px 5px 10px; float:left; width:880px; min-height:597px;}
 
 /*CONTEUDO-LEFT*/
 #conteudo .titulo{margin-bottom:10px; padding:6px; background:#333; font:normal 20px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#fff;}

@@ -31,4 +31,12 @@ function getHome(){
 		require_once('/tpl/404.php');
 	}
 }
+
+function setHeader() {
+	require_once('tpl/header.php');
+}
+
+function setHome() {
+	echo BASE;
+}
 ?>
