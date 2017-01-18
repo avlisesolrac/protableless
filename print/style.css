@@ -1,3 +1,28 @@
-@charset "utf-8";
-.body {
+/*
+Site Pro Tableless - Imprima
+Versão 1.0
+Autor: Carlos Eduardo Silva
+Site do autor: localhost/protableless/print
+*/
+
+/*RESET*/
+*{margin:0; padding:0;}
+body{
+	background:url(./imagens/body_bg.png) repeat-x #fff;
 }
+#site{width:900px; margin:0 auto;}
+
+/*TOPO*/
+#header{width:900px; height:162px; margin-bottom:10px;}
+#header .logo{width:480px; height:109px; margin:0 auto; display:block;}
+#header .line{width:900px; height: 2px; background:url(./imagens/header_line_bg.png) repeat-x;}
+#header .menu{float:left; list-style:none;display: inline; width:876px; border-bottom:3px solid #D36666; padding:3px 12px;}
+#header .menu li{float:left; margin:10px;}
+#header .menu li a{font:bold 14px Arial, Helvetica, sans-serif; color:#fff;text-transform:uppercase; text-decoration:none; float:left;}
+#header .menu li a:hover{text-decoration:underline;}
+#header .menu .iconr{width:17px; height:17px; background: url(./imagens/icon_ul_menu_r.png) no-repeat center;}
+#header .menu .iconl{width:17px; height:17px; background: url(./imagens/icon_ul_menu_l.png) no-repeat center;}
+#header .menu .disc{width:17px; height:17px; background: url(./imagens/li_disc.png) no-repeat center;}
+
+/*CONTEUDO*/
+#content{width:900px;}
