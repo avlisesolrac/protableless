@@ -25,9 +25,12 @@ body{background:url(./imagens/body_bg.png) repeat-x #fff;}
 #header .menu .iconr, #footer .menu .iconr{width:17px; height:17px; background: url(./imagens/icon_ul_menu_r.png) no-repeat center;}
 #header .menu .iconl, #footer .menu .iconl{width:17px; height:17px; background: url(./imagens/icon_ul_menu_l.png) no-repeat center;}
 #header .menu .disc, #footer .menu .disc{width:17px; height:17px; background: url(./imagens/li_disc.png) no-repeat center;}
+#header .info_print{display:none;}
 
 /*CONTEUDO*/
 #conteudo{margin:0 10px 5px 10px; float:left; width:880px;}
+
+/*CONTEUDO-LEFT*/
 #conteudo .titulo{margin-bottom:10px; padding:6px; background:#333; font:normal 20px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#fff;}
 #conteudo .item_left{width: 430px; float:left;}
 #conteudo .item_left .ref{padding: 5px; background: #fff; margin-bottom: 10px; float:left;}
@@ -42,13 +45,13 @@ body{background:url(./imagens/body_bg.png) repeat-x #fff;}
 #conteudo .item_left .imagens{float:left; list-style:none;}
 #conteudo .item_left .imagens li{margin-bottom:10px;}
 
+/*CONTEUDO-RIGHT*/
 #conteudo .item_right{width: 430px; float:right;}
 #conteudo .item_right .thumb{float:right;}
 #conteudo .item_right .gallery{padding: 5px; background: #fff; float:right;margin: 10px 0; width: 420px; list-style: none; display:inline;}
 #conteudo .item_right .gallery li{float:left; margin:5px;}
-
 #conteudo .item_right .print{padding:6px; background:#333; text-align:center; float:right; width:418px;}
-#conteudo .item_right .print input{background: none; border:0; font:bold 18px Arial, Helvetica, sans-serif; color:#fff; cursor:pointer;}
+#conteudo .item_right .print a{background: none; border:0; font:bold 18px Arial, Helvetica, sans-serif; color:#fff; cursor:pointer;  text-decoration:none;}
 
 
 /*FOOTER*/

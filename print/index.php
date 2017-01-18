@@ -7,6 +7,13 @@
 <meta name="description" content="Descrição">
 <meta name="keywords" content="Palavras chaves">
 </head>
+<style media="print">
+	/*Esse estilo será aplicado somente no momento em que o usuário clicar no botão para imprimir*/
+	#header .menu, #footer .menu, #conteudo .print{display:none;}
+	#header .info_print{display:block; text-align:center; margin:5px 0;}
+	#conteudo .titulo{margin-bottom:5px; padding-bottom:5px; border-bottom:5px solid #999;}
+	#footer{margin-top:5px; padding-top:5px; border-top:5px solid #999;}
+</style>
 <body>
 
 <div id="site">
@@ -16,6 +23,7 @@
 				<img src="./imagens/logo.png" border="0" alt="Logo" title="Pro Tableless, imprima o anúncio" width="480" height="112"/>				
 			</a>
 		</div><!--/logo-->
+			<div class="info_print">Anúncio impresso do site carloseduardo.site11.com</div>
 			<div class="line"></div><!--/line-->
 			<ul class="menu">
 				<li class="iconr"></li>                                                      
@@ -80,7 +88,7 @@
 					<li><img src="./midias/04.png" alt="Imagem do anúncio" title="Sofá Ref:1080"></li>
 				</ul><!--/gallery-->
 				
-				<div class="print"><input type="submit" name="print" value="CLIQUE AQUI PAR IMPRIMIR ESTE ANÚNCIO"></div>
+				<div class="print"><a href="javascript:self.print()">CLIQUE AQUI PAR IMPRIMIR ESTE ANÚNCIO</a></div>
 
 			</div><!--/item_right-->
 
