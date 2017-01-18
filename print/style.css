@@ -28,10 +28,32 @@ body{background:url(./imagens/body_bg.png) repeat-x #fff;}
 
 /*CONTEUDO*/
 #conteudo{margin:0 10px 5px 10px; float:left; width:880px;}
+#conteudo .titulo{margin-bottom:10px; padding:6px; background:#333; font:normal 20px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#fff;}
+#conteudo .item_left{width: 430px; float:left;}
+#conteudo .item_left .ref{padding: 5px; background: #fff; margin-bottom: 10px; float:left;}
+#conteudo .item_left .ref h2{font:18px Arial, Helvetica, sans-serif; color:#333;}
+#conteudo .item_left .ref p{font:12px Arial, Helvetica, sans-serif; color:#333; margin: 10px 0}
+#conteudo .item_left .ref ul{list-style: square; margin: 0 25px; color:#666;}
+#conteudo .item_left .ref li{margin:3px 0; font:bold 12px Arial, Helvetica, sans-serif; color:#666;}
+#conteudo .item_left .ref span{font:27px Arial, Helvetica, sans-serif; color:#900;}
+#conteudo .item_left .ref .contato{margin:10px 0;}
+#conteudo .item_left .ref .contato span{padding:6px; background:#900; font:27px Arial, Helvetica, sans-serif; color:#fff; margin-bottom:10px; display:block; float:left;}
+#conteudo .item_left .ref .contato p{margin:3px 0; float:left; display:block; font-size:16px;}
+#conteudo .item_left .imagens{float:left; list-style:none;}
+#conteudo .item_left .imagens li{margin-bottom:10px;}
+
+#conteudo .item_right{width: 430px; float:right;}
+#conteudo .item_right .thumb{float:right;}
+#conteudo .item_right .gallery{padding: 5px; background: #fff; float:right;margin: 10px 0; width: 420px; list-style: none; display:inline;}
+#conteudo .item_right .gallery li{float:left; margin:5px;}
+
+#conteudo .item_right .print{padding:6px; background:#333; text-align:center; float:right; width:418px;}
+#conteudo .item_right .print input{background: none; border:0; font:bold 18px Arial, Helvetica, sans-serif; color:#fff; cursor:pointer;}
+
 
 /*FOOTER*/
 #footer{height:185px; background:#990000;}
-#footer .footer_content{width:900px; margin:0 auto; height:185px; background: #069;}
+#footer .footer_content{width:900px; margin:0 auto; height:185px;}
 #footer .footer_elementos{float:left;width: 900px; list-style-type:none;display:inline;}
 #footer .footer_elementos li{float:left; margin:20px 113px 0 10px;}
 #footer .footer_elementos .right{float:right; margin:20px 10px 0 0;}
