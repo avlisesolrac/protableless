@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Pro Tableless - Imprima</title>
-<link href="style.css" rel="stylesheet" type="text/css">
+<link href="./style.css" rel="stylesheet" type="text/css">
 <meta name="description" content="Descrição">
 <meta name="keywords" content="Palavras chaves">
 </head>
@@ -58,13 +58,14 @@
 		</ul><!--/menu-->
 		
 		<ul class="footer_elementos">
-			<li><img src="./imagens/logo_footer.png" border="0" alt="Logo" title="Pro Tableless, imprima o anúncio" width="247" height="91"/></li>
+			<li>
+				<img src="./imagens/logo_footer.png" border="0" alt="Logo" title="Pro Tableless, imprima o anúncio" width="247" height="91"/>
+			</li>
 			<li>
 				<div class="tel">Ligue:</div>
 				<p>(11) 2568-6400</p>
 				<p>(11) 96485-6672</p>
 			</li>
-
 			<li class="right">
 				<div class="mail">Escreva:</div>
 				<p class="min">carlos.eduardo-silva@hotmail.com</p>

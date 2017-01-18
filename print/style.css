@@ -33,8 +33,8 @@ body{background:url(./imagens/body_bg.png) repeat-x #fff;}
 #footer{height:185px; background:#990000;}
 #footer .footer_content{width:900px; margin:0 auto; height:185px; background: #069;}
 #footer .footer_elementos{float:left;width: 900px; list-style-type:none;display:inline;}
-#footer .footer_elementos li{float:left; margin:15px 120px 0 10px;}
-#footer .footer_elementos .right{float:right; margin:10px 1px 0 0;}
+#footer .footer_elementos li{float:left; margin:20px 113px 0 10px;}
+#footer .footer_elementos .right{float:right; margin:20px 10px 0 0;}
 #footer .footer_elementos li .tel{font:bold italic 20px Arial, Helvetica, sans-serif; color:#fff; padding-left:38px; background: url(./imagens/footer_tel.png) no-repeat;}
 #footer .footer_elementos li .mail{font:bold italic 20px Arial, Helvetica, sans-serif; color:#fff; padding-left:38px; background: url(./imagens/footer_mail.png) no-repeat;}
 #footer .footer_elementos li p{font:bold 16px Arial, Helvetica, sans-serif; color:#fff; text-transform:uppercase; margin:5px 10px;}
