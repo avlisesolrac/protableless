@@ -18,7 +18,7 @@ body{background:url(./imagens/body_bg.png) repeat-x #fff;}
 #header{width:900px; height:161px;}
 #header .logo{width:480px; height:109px; margin:0 auto; display:block;}
 #header .line, #footer .line{width:900px; height: 2px; background:url(./imagens/header_line_bg.png) repeat-x;}
-#header .menu, #footer .menu{float:left; list-style:none;display: inline; width:876px; border-bottom:3px solid #D36666; padding:3px 12px;}
+#header .menu, #footer .menu{float:left; list-style:none;display: inline; width:878px; border-bottom:3px solid #D36666; padding:3px 12px;}
 #header .menu li, #footer .menu li{float:left; margin:10px;}
 #header .menu li a, #footer .menu li a{font:bold 14px Arial, Helvetica, sans-serif; color:#fff;text-transform:uppercase; text-decoration:none; float:left;}
 #header .menu li a:hover, #footer .menu li a:hover{text-decoration:underline;}
@@ -64,3 +64,19 @@ body{background:url(./imagens/body_bg.png) repeat-x #fff;}
 #footer .footer_elementos li .mail{font:bold italic 20px Arial, Helvetica, sans-serif; color:#fff; padding-left:38px; background: url(./imagens/footer_mail.png) no-repeat;}
 #footer .footer_elementos li p{font:bold 16px Arial, Helvetica, sans-serif; color:#fff; text-transform:uppercase; margin:5px 10px;}
 #footer .footer_elementos li .min{font:bold 14px Arial, Helvetica, sans-serif; color:#fff; text-transform:lowercase; margin:8px 10px;}
+
+/*PÁGINAS*/
+#pagina{width:880px;}
+
+/*404-PageNotFound*/
+.erro{padding:5px; background: #fff; text-align: center}
+.erro p{font:bold 12px Arial, Helvetica, sans-serif; color:#069; margin-bottom:10px;}
+
+/*Quem Somos*/
+#pagina ul{list-style-type:none;}
+#pagina #left{width:630px; margin-right:20px; float:left;}
+#pagina #left li{padding: 5px; background: #fff; border:1px solid #ccc; margin-bottom:10px;}
+#pagina #left li h2{font:bold 14px Verdana, Geneva, sans-serif; text-transform: uppercase; color:#069;}
+#pagina #left li p{margin: 10px 0;font:13px Arial, Helvetica, sans-serif; color:#666;}
+#pagina #right{float:right; width: 220px;}
+#pagina #right li{margin-bottom:55px;}

@@ -19,17 +19,8 @@ require_once('dts/get.php');
 <div id="footer">
 <div class="footer_content">
 	<div id="footer_spacer"></div><!--/content-->
-	<div class="line"></div><!--/line-->
-	<ul class="menu">
-		<li class="iconr"></li>
-		<li><a href="#" title="Pro Tableless - Imprima | Início">INÍCIO</a></li><li class="disc"></li>
-		<li><a href="#" title="Pro Tableless - Imprima | Quem Somos">QUEM SOMOS</a></li><li class="disc"></li>
-		<li><a href="#" title="Pro Tableless - Imprima | Portifólio">PORTFÓLIO</a></li><li class="disc"></li>
-		<li><a href="#" title="Pro Tableless - Imprima | Serviços">SERVIÇOS</a></li><li class="disc"></li>
-		<li><a href="#" title="Pro Tableless - Imprima | Expediente">EXPEDIENTE</a></li><li class="disc"></li>
-		<li><a href="#" title="Pro Tableless - Imprima | Fale Conosco">FALE CONOSCO</a></li>
-		<li class="iconl"></li> 
-	</ul><!--/menu-->
+	
+	<?php setMenu();?>
 	
 	<ul class="footer_elementos">
 		<li>

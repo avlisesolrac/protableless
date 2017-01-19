@@ -19,24 +19,31 @@ function getHome(){
 
 	//file_exists() - verifica se um arquivo existe, nesse caso o que está dentro da url[0]
 	if(file_exists('tpl/'.$url[0].'.php')){
-		//Se existir será retornado o arquivo solicitado
+		//Se existir será retornado uma unica vez o arquivo solicitado
 		require_once('/tpl/'.$url[0].'.php');
 	}
 	//Se o arquivo não existe no diretório tpl, então será procurado no diretorio acima no caso usando a $url[0] e a $url[1] sendo o arquivo procurado
 	elseif(file_exists('tpl/'.$url[0].'/'.$url[1].'.php')) {
-		//Se existir será retornado o arquivo existente no diretorio especificado
+		//Se existir será retornado o arquivo existente no diretorio especificado uma unica vez
 		require_once('/tpl/'.$url[0].'/'.$url[1].'.php');
 	} else {
-		//Se não, será retornado a página 404 de página não encontrada
+		//Se não, será retornado a página 404 de página não encontrada uma unica vez
 		require_once('/tpl/404.php');
 	}
 }
 
 function setHeader() {
+	//Retorna o arquivo header.php uma unica vez
 	require_once('tpl/header.php');
 }
 
+function setMenu() {
+	//Retorna o arquivo menu.php mais de uma vez
+	require('tpl/menu.php');
+}
+
 function setHome() {
+	//exibe o endereço local do projeto que foi definido em ini.php dentro da pasta dts
 	echo BASE;
 }
 ?>

@@ -1,6 +1,6 @@
-<title>Pro Tableless - Imprima</title>
-<meta name="description" content="Descrição">
-<meta name="keywords" content="Palavras chaves">
+<title>Pro Tableless - Agência Web | Desenvolvimento Web</title>
+<meta name="description" content="Home | Pro Tableless - Desenvolvimento de sites nos padrões web, Trabalhando para você conquistar novos clientes">
+<meta name="keywords" content="Design Digital, Lojas Virtuais, Desenvolvimento de Sites, Estratégia de vendas, Consultoria web, Criação de sistemas">
 
 <?php setHeader();?>
 
