@@ -18,7 +18,7 @@ body{background:url(./imagens/body_bg.png) repeat-x #fff;}
 #header{width:900px; height:161px;}
 #header .logo{width:480px; height:109px; margin:0 auto; display:block;}
 #header .line, #footer .line{width:900px; height: 2px; background:url(./imagens/header_line_bg.png) repeat-x;}
-#header .menu, #footer .menu{float:left; list-style:none;display: inline; width:878px; border-bottom:3px solid #D36666; padding:3px 12px;}
+#header .menu, #footer .menu{float:left; list-style:none;display: inline; width:880px; border-bottom:3px solid #D36666; padding:3px 12px;}
 #header .menu li, #footer .menu li{float:left; margin:10px;}
 #header .menu li a, #footer .menu li a{font:bold 14px Arial, Helvetica, sans-serif; color:#fff;text-transform:uppercase; text-decoration:none; float:left;}
 #header .menu li a:hover, #footer .menu li a:hover{text-decoration:underline;}
@@ -80,3 +80,11 @@ body{background:url(./imagens/body_bg.png) repeat-x #fff;}
 #pagina #left li p{margin: 10px 0;font:13px Arial, Helvetica, sans-serif; color:#666;}
 #pagina #right{float:right; width: 220px;}
 #pagina #right li{margin-bottom:55px;}
+
+/*Trabalhos*/
+#pagina .trabalhos{list-style-type:none; width:880px; float:left; display:inline;}
+#pagina .trabalhos li{float:left; font:bold 11px Arial, Helvetica, sans-serif; text-align:center; width:260px; margin:10px; padding: 5px; background: #fff; border:1px solid #ccc; min-height: 260px}
+#pagina .trabalhos li .link{color:#069; margin:5px 0;}
+#pagina .trabalhos li a{color:#069; text-decoration: none; font-size: 14px;}
+#pagina .trabalhos li a:hover{text-decoration: underline;}
+#pagina .trabalhos li img{padding:2px; border:1px dotted #555;}

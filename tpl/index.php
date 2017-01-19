@@ -50,6 +50,6 @@
 		<li><img src="<?php setHome();?>/tpl/midias/04.png" alt="Imagem do anúncio" title="Sofá Ref:1080"></li>
 	</ul><!--/gallery-->
 	
-	<div class="print"><a href="javascript:self.print()">CLIQUE AQUI PAR IMPRIMIR ESTE ANÚNCIO</a></div>
+	<div class="print"><a href="javascript:self.print()">CLIQUE AQUI PARA IMPRIMIR ESTE ANÚNCIO</a></div>
 </div><!--/item_right-->
 </div><!--/conteudo-->
