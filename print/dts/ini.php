@@ -6,7 +6,7 @@ define(PASS,'');
 define(DBA,'protableless');
 
 //Defin o site
-define(BASE,'http://localhost/protableless');
+define(BASE,'http://localhost/protableless/print');
 define(SITENAME,'Pro Tableless - Agência Web');
 
 //Define Servidor de E-mail
