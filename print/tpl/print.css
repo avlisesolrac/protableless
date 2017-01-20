@@ -1,0 +1,5 @@
+/*Esse estilo será aplicado somente no momento em que o usuário clicar no botão para imprimir*/
+#header .menu, #footer .menu, #conteudo .print{display:none;}
+#header .info_print{display:block; text-align:center; margin:5px 0;}
+#conteudo .titulo{margin-bottom:5px; padding-bottom:5px; border-bottom:5px solid #999;}
+#footer{margin-top:5px; padding-top:5px; border-top:5px solid #999;}
